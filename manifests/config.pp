@@ -27,6 +27,8 @@ class rabbitmq::config {
   $management_port                                    = $rabbitmq::management_port
   $management_ssl                                     = $rabbitmq::management_ssl
   $management_hostname                                = $rabbitmq::management_hostname
+  $mnesia_table_loading_retry_limit                   = $rabbitmq::mnesia_table_loading_retry_limit
+  $mnesia_table_loading_retry_timeout                 = $rabbitmq::mnesia_table_loading_retry_timeout
   $node_ip_address                                    = $rabbitmq::node_ip_address
   $quorum_membership_reconciliation_enabled           = $rabbitmq::quorum_membership_reconciliation_enabled
   $quorum_membership_reconciliation_auto_remove       = $rabbitmq::quorum_membership_reconciliation_auto_remove
